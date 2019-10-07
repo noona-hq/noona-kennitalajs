@@ -1,9 +1,11 @@
 {
-  "name": "kennitalajs",
-  "version": "1.0.4",
+  "name": "@noonahq/kennitalajs",
+  "version": "1.0.5",
   "description": "Validation for an Icelandic kennitala (social security number)",
-  "main": "kennitala.min.js",
+  "main": "dist/index.js",
+  "types": "./types/main.d.ts",
   "scripts": {
+    "build": "babel src --out-dir dist",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -21,6 +23,11 @@
   },
   "homepage": "https://github.com/olitomas/kennitalajs#readme",
   "devDependencies": {
+    "@babel/cli": "^7.5.0",
+    "@babel/core": "^7.5.0",
+    "@babel/node": "^7.5.0",
+    "@babel/polyfill": "^7.4.4",
+    "@babel/preset-env": "^7.5.0",
     "babel-preset-es2015": "^6.9.0",
     "babelify": "^7.3.0",
     "gulp": "^3.9.1",
