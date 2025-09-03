@@ -1,6 +1,6 @@
 {
   "name": "@noona-hq/noona-kennitalajs",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Validation for an Icelandic kennitala (social security number)",
   "main": "dist/index.js",
   "types": "./types/main.d.ts",

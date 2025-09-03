@@ -1,1 +1,1 @@
-declare module '@noonahq/kennitalajs';
+declare module '@noona-hq/noona-kennitalajs';
