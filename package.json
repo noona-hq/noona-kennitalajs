@@ -1,5 +1,5 @@
 {
-  "name": "@noonahq/kennitalajs",
+  "name": "@noona-hq/noona-kennitalajs",
   "version": "1.0.7",
   "description": "Validation for an Icelandic kennitala (social security number)",
   "main": "dist/index.js",
@@ -8,20 +8,7 @@
     "build": "babel src --out-dir dist",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/olitomas/kennitalajs.git"
-  },
-  "keywords": [
-    "kennitala",
-    "kennitalajs"
-  ],
-  "author": "Óli Tómas Freysson",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/olitomas/kennitalajs/issues"
-  },
-  "homepage": "https://github.com/olitomas/kennitalajs#readme",
+  "license": "Proprietary",
   "devDependencies": {
     "@babel/cli": "^7.5.0",
     "@babel/core": "^7.5.0",
@@ -48,5 +35,9 @@
         }
       ]
     ]
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com",
+    "access": "restricted"
   }
 }
